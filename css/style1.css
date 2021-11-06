@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+html 
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    /*Smooth de cuon trang*/
+}
+  
+
+.header {
+    position: fixed;
+    top: 9px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    padding: 1rem 2%;
+    display: block;
+    
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: #222;
+}
+  
+.logo i {
+    color: #bac34e;
+    padding-right: .5rem;
+}
+  
+.navbar a {
+    font-size: 1.99rem;
+    color: #666;
+    margin: 0 1rem;
+}
+  
+.navbar a:hover {
+    color: #bac34e;
+}
+  
+.icons div {
+    padding-top: 5px;
+    font-size: 1.75rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: #bac34e;
+    text-align: center;
+}
+.icons div:hover {
+    color: #000;
+}
+
+#menu-btn {
+    display: none;
+}
+
+
+.search-form {
+    position: absolute;
+    top: -200%;
+    right: 2rem;
+    width: 25rem;
+    border-radius: .5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    align-items: center;
+    height: 5.5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+
+
+.search-form input {
+    height: 100%;
+    width: 100%;
+    padding: 0 1.2rem;
+    font-size: 1.6rem;
+    color: #222;
+    text-transform: none;
+}
+
+.search-form label {
+    font-size: 1.8rem;
+    margin-right: 1.0rem;
+    cursor: pointer;
+    color: #666;
+  }
+  
+.search-form label:hover {
+    color: #bac34e;
+}
+
+.search-form.active {
+    top: 60px;
+}
+  
+
+
+  
